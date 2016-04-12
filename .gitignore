@@ -1,0 +1,8 @@
+.env
+cmd/*/data
+cmd/api/api
+cmd/auth/auth
+cmd/leaderboard/leaderboard
+cmd/profile/profile
+cmd/session/session
+cmd/telemetry/telemetry
