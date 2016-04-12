@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
+	"github.com/cforbes/examples/gocraftSplit/service"
+	"net/http"
 	"net/http/httptest"
 	"testing"
-	"net/http"
-	"github.com/cforbes/examples/gocraftSplit/service"
 )
 
-func TestRedisHandler (t *testing.T) {
+func TestRedisHandler(t *testing.T) {
 	router := gocraftsplit.GetRoutes()
 	recorder := httptest.NewRecorder()
 	request, _ := http.NewRequest("GET", "/status", nil)

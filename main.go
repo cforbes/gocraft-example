@@ -1,8 +1,8 @@
 package main
 
 import (
-	"net/http"
 	"github.com/cforbes/examples/gocraftSplit/service"
+	"net/http"
 )
 
 func main() {
